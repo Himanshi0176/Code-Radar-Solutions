@@ -1,7 +1,7 @@
 #iclude<stdio.h>
 int main(){
-    float num;
-    scanf("%f",&num);
-    printf("Area: %.2f",(num*num*3.14));
+    float a;
+    scanf("%f",&a);
+    printf("Area: %.2f",(a*a*3.14));
     return 0;
 }
