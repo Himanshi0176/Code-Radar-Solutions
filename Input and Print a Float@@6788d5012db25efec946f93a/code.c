@@ -1,6 +1,7 @@
 include<stdio.h>
 int main(){
-    float A=3.14;
+    A=3.14;
+    float A;
     scanf("%f",&A);
     printf("You entered: %f",A);
     return 0;
