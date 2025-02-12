@@ -1,8 +1,8 @@
 include<stdio.h>
 int main(){
     
-    float A;
-    scanf("%f",&A);
-    printf("You entered: %.2f\n",A);
+    float num;
+    scanf("%f",&num);
+    printf("You entered: %.2f\n",num);
     return 0;
 }
