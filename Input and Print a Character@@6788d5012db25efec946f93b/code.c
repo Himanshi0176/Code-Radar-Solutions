@@ -3,5 +3,5 @@ int main(){
     char 'A';
     scanf("%c",&A);
     printf("You entered: %c",A);
-    RETURN 0;
+    return 0;
 }
