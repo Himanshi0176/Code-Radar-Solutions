@@ -3,11 +3,11 @@
 int main(){
     int days;
     scanf("%d",&days);
-    if(days==365){
-    printf("Not a Leap Year");
+    if(days%4==0 && days%100!=0 || days%400==0){
+    printf("Leap Year");
     }
-    else if(days==366){
-        printf("Leap Year")
+    else{
+        printf("Not a Leap Year")
     }
     return 0;
 }
