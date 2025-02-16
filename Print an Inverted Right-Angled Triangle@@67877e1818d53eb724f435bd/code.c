@@ -6,6 +6,6 @@ int main(){
     int j=0;
     while((i<=n)&&(j<=n)){
         printf("*\n");
-    i++;
+    i--;
     }
     }
