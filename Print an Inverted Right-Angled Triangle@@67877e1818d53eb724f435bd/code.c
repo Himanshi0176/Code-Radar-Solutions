@@ -4,8 +4,8 @@ int main(){
     
     int i=0;
     int j=0;
-    for( i=0;i<=n;i--){
-    for(j=0;j<=n;j++){
+    for( i=n;i>=1;i--){
+    for(j=1;j<=i;j++){
         printf("\n");
     }
     printf("*");    
