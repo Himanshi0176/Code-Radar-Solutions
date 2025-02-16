@@ -2,7 +2,8 @@
 int main(){
     int n;
     scanf("%d",&n);
-    while(n<=2){
+    int i=1
+    while(i<=n){
         printf("*\n");
     n++;
     }
